@@ -1,3 +1,7 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 #header{
     display: flex;
     justify-content: flex-start;
@@ -22,3 +26,64 @@
     width: 100%;
     background: #ccc;
 }
+
+#content ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 15px;
+    background: #f8f8f8;
+}
+
+#content ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    padding: 15px;
+    border-bottom: 1px #C2D1E2 solid;
+    background:#FFF;
+
+}
+
+#content ul li input{}
+
+#content ul li span{}
+
+#content ul li #filter{}
+
+#content ul li #filter select{} 
+
+#content ul li #filter select option{}
+
+button{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    padding: 15px;
+    border-radius: 5px;
+    border:0;
+    background: #ccc;
+    color: #FFF;
+}
+
+.bg-green{
+    background: #2bddb2;
+    color: #fff;
+}
+
+.bg-white{
+    background: #fff;
+    color: #757575;
+    border:1px #d7d7d7 solid;
+}
+
+.bg-blue{
+    background: #00b2ff;
+    color: #FFF;
+}
+
+#content button{}
+

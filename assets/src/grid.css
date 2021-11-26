@@ -1,0 +1,73 @@
+body{
+    background: #000;
+}
+
+.grid{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 100%;
+    background: red;
+
+
+}
+
+.grid .row{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    padding: 15px;
+    background: yellow;
+}
+
+.grid .row .collumn{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    padding: 15px;
+    background: pink;
+}
+
+.bg{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    background: purple;
+    color: white;
+}
+
+.collumn:nth-of-type(2n) .bg {
+    background: green;
+}
+
+.grid .row .collumn.collumn-width-100{
+    width: 100%;
+}
+
+.grid .row .collumn.collumn-width-75{
+    width: 75%;
+}
+
+.grid .row .collumn.collumn.collumn-width-50{
+    width: 50%;
+}
+
+.grid .row .collumn.collumn-width-25{
+    width: 25%;
+}
+
+.grid .row .collumn.collumn-width-60{
+    width: 60%;
+}
+
+.grid .row .collumn.collumn-width-40{
+    width: 40%;
+}
+
+.grid .row .collumn.collumn-width-33{
+    width: 33.333%;
+}
