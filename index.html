@@ -7,8 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./assets/src/reset.css">
+    <link rel="stylesheet" href="./assets/src/grid.css">
     <link rel="stylesheet" href="./assets/src/styles.css">
 
     <title>Task Manager</title>
@@ -21,25 +24,35 @@
         </h1>
     </div>
     <div id="controll">
-        <div id="search">
-            <label>
-                <input type="text">
-                <button class="bg-green">Buscar</button>
-            </label>
+        <div class="grid">
+            <div class="row">
+                <div class="collumn collumn-width-60">
+                    <div id="search">
+                        <label>
+                            <input type="text">
+                            <button class="bg-green">Buscar</button>
+                        </label>
+                    </div>
+                </div>
+                <div class="collumn collumn-width-40">
+                    <div id="filter">
+                        <select name="" id="">
+                            <option value="">Selecione uma opção</option>
+                            <option value="1">Concluídas</option>
+                            <option value="2">Fazendo</option>
+                            <option value="3">Para fazer</option>
+                        </select>
+                    </div>
+                    <div id="btn">
+                        <button class="bg-white">Remover</button>
+                        <button class="bg-blue">Criar</button>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div id="filter">
-            <select name="" id="">
-                <option value="">Selecione uma opção</option>
-                <option value="1">Concluídas</option>
-                <option value="2">Fazendo</option>
-                <option value="3">Para fazer</option>
-            </select>
-        </div>
-        <div id="btn">
-            <button class="bg-white">Remover</button>
-            <button class="bg-blue">Criar</button>
-        </div>
-        
+
+       
+
     </div>
     <div id="content">
         <ul>

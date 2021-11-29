@@ -4,11 +4,14 @@ body{
 
 #header{
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     height: 45px;
     width: 100%;
-    background: #f00;
+    background: #00B2FF;
+    color: #fff;
+    text-transform: uppercase;
+
 }
 
 #controll{
@@ -16,8 +19,75 @@ body{
     justify-content: flex-start;
     align-items: flex-start;
     width: 100%;
-    background: #ff6600;
+    background: #f8f8f8;
 }
+
+#controll #search{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+#search label,
+#search input{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#search label{
+    width: 100%;
+}
+
+#search input{
+    width: calc(100% - 90px);
+    height: 45px;
+    border:0;
+    outline: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#search button {
+    width: 90px;
+}
+
+#controll #filter, 
+#controll #btn{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+#controll #btn {
+    margin-left: 30px;
+
+}
+
+#controll #btn button + button {
+    margin-left: 30px;
+}
+
+#controll #btn button {
+    height: 45px;
+    width: 50%;
+}
+
+#controll #filter select{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 45px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    outline: 0;
+    border: 0;
+    background: #fff;
+} 
 
 #content{
     display: flex;

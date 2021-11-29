@@ -8,7 +8,6 @@ body{
     flex-wrap: wrap;
     align-items: flex-start;
     width: 100%;
-    background: red;
 
 
 }
@@ -19,7 +18,6 @@ body{
     align-items: flex-start;
     width: 100%;
     padding: 15px;
-    background: yellow;
 }
 
 .grid .row .collumn{
@@ -28,7 +26,6 @@ body{
     align-items: flex-start;
     width: 100%;
     padding: 15px;
-    background: pink;
 }
 
 .bg{
@@ -36,6 +33,7 @@ body{
     justify-content: center;
     align-items: flex-start;
     width: 100%;
+    padding: 15px;
     background: purple;
     color: white;
 }
